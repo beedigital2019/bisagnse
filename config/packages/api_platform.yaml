@@ -1,0 +1,11 @@
+api_platform:
+    title: 'Bi Sagnse'
+    description: 'Notre projet consiste à mettre en place une plateforme qui gère l’exposition  et la vente des vêtements conçus par nos tailleurs.'
+    version: '1.0.0'
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+    
